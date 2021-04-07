@@ -7,11 +7,11 @@ class Student {
         private String studentCurriculum;
 
         public int getId() {return id;}
-        public void setId(final int id) {this.id = id;}
+        public void setId(int id) {this.id = id;}
         public String getName() {return name;}
-        public void setName(final String name) {this.name = name;}
+        public void setName(String name) {this.name = name;}
         public String getStudentCurriculum() {return studentCurriculum;}
-        public void setStudentCurriculum(final String studentCurriculum)
+        public void setStudentCurriculum(String studentCurriculum)
         {
             this.studentCurriculum = studentCurriculum;
         }
@@ -19,7 +19,7 @@ class Student {
         // 'toString()' method to print the values.
 
         public String toString() {
-            return "Student: [id= " + getId() + ", name= " + getName() + ", Curriculum= " + getStudentCurriculum() + "]";
+            return "Student: [ID = " + getId() + ", Name = " + getName() + ", Curriculum = " + getStudentCurriculum() + "]";
         }
     }
 
