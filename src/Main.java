@@ -18,7 +18,6 @@ public class Main {
         mystudent.setId(10003);
         mystudent.setName("Alvis");
         mystudent.setStudentCurriculum("Information Technology");
-
         System.out.println(mystudent.toString());
 
 

@@ -1,6 +1,5 @@
 
 class Student {
-        // Employee class.
 
         // Member variables of the class.
         private int id;
