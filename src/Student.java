@@ -18,7 +18,7 @@ class Student {
         }
 
         // 'toString()' method to print the values.
-        //@Override
+
         public String toString() {
             return "Student: [id= " + getId() + ", name= " + getName() + ", Curriculum= " + getStudentCurriculum() + "]";
         }
